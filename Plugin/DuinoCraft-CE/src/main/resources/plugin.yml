@@ -1,0 +1,11 @@
+name: DuinoCraft-CE
+version: '1.0'
+main: org.hashcraft.duinoCraftCE.DuinoCraftCE
+api-version: '1.21'
+load: STARTUP
+authors: [ KosmicDaKerbal, METECH ]
+description: A Minecraft Plugin for integrating Duino-Coin with Minecraft.
+commands:
+  login:
+    description: "Log into your DuinoCoin Wallet"
+    usage: "/login <wallet_name>"
